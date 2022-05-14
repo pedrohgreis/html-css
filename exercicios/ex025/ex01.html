@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: lighter;
+            background-image: linear-gradient(to top, darkred, red);
+            background-attachment: fixed;
+        }
+
+        h1{
+            text-align: center;
+            color: darkred;
+            text-shadow: 2px 2px 5px rgba(156, 2, 2, 0.651);
+        }
+
+        #dv{
+            text-align: center;   
+        }
+
+
+        #dv > #d1{
+            background-color: gray;
+            width: 200px;
+            height: 170px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        #dv > #d2{
+            background-color: gray;
+            width: 200px;
+            height: 170px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        #dv > #d3{
+            background-color: gray;
+            width: 200px;
+            height: 170px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+
+        #dv > #d1:hover{
+            background-color: rgb(0, 32, 139);
+        }
+
+        #dv > #d2:hover{
+            background-color: darkmagenta;
+        }
+
+        #dv > #d3:hover{
+            background-color: #8BA127;
+        }
+
+        .division{
+            text-align: center;
+        }
+
+        .division > p{
+            text-align: justify;
+        }
+
+        .division > .p1{
+            color: rgb(0, 139, 63);
+        }
+
+
+        .division > .p2{
+            display: none;
+        }
+
+        .division:hover > .p2{
+            display: block;
+            color: #8BA127;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Site Interativo</h1>
+    <p>Passe o mouse sobre os elementos</p>
+    <div id="dv">
+        <div id="d1">01</div>
+        <div id="d2">02</div>
+        <div id="d3">03</div>
+    </div>
+    <br>
+    <div class="division">
+        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt est possimus distinctio deleniti quam! Aperiam quis natus architecto, possimus officiis unde pariatur optio nulla inventore quia cupiditate adipisci incidunt aut!</p>
+
+        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur non nulla quaerat necessitatibus numquam quas nostrum explicabo eveniet minus, sit magnam iste totam. Asperiores quibusdam deserunt corrupti repellat cum?</p>
+    </div>
+    
+</body>
+</html>

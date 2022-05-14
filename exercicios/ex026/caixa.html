@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.3em;
+            background-image: linear-gradient(to bottom, #A67951, #BFB195);
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header{
+            background-color: rgba(185, 167, 167, 0.733);
+            padding: 50px;
+            text-align: center;
+            text-transform: capitalize;
+            word-spacing: 6px;
+            border: 2px solid rgba(211, 211, 211, 0.808);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(255, 0, 76);
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+
+        nav > a:active{
+              color: rgba(46, 35, 196, 0.815);
+        }
+
+        main > h1{
+        font-size: 1.5em;
+        color: rgba(236, 126, 114, 0.829);
+        text-shadow: 4px 4px 1px rgba(224, 112, 99, 0.856);
+        text-align: center;
+        }
+
+        .info{
+            text-align: justify;
+            text-indent: 10px;
+        }
+
+        aside > em{
+            font-weight: bolder;
+        }
+
+        footer{
+            background-color: #705136af;
+            color: whitesmoke;
+            margin-top: 10px;
+            text-transform: capitalize;
+            height: 230px;
+        }
+
+        #list > ul{
+            list-style: none;
+        }
+
+        ul > a{
+           color: darkturquoise; 
+           text-decoration: none;
+        }
+
+        ul > a:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+
+        ul > a:active{
+            color: whitesmoke;
+        }
+
+        #list > ul li::after{
+            content: '[link]';
+            font-size: 10px;
+            font-weight: normal;
+            text-decoration: none;
+        }
+    
+        .adress > address{
+            text-indent: 8px;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <header>
+            <nav>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">contact</a>
+            </nav>
+        </header>
+    </div>
+
+    <div id="principal">
+        <main>
+            <h1>Einstein Phrases</h1>
+            <section class="info">
+                <article>
+                    <blockquote cite="https://www.goodreads.com/author/quotes/9810.Albert_Einstein">I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.</blockquote>
+                    <aside>By <em>Albert Einstein</em></aside>
+                </article>
+            </section>
+            <section class="info">
+                <article>
+                    <blockquote cite="https://www.goodreads.com/author/quotes/9810.Albert_Einstein">When you are courting a nice girl an hour seems like a second. When you sit on a red-hot cinder a second seems like an hour. That's relativity</blockquote>
+                    <aside>By <em>Albert Einstein</em></aside>
+                </article>
+            </section>
+        </main>
+    </div>
+        <footer>
+            <span id="list">
+                <ul type="disc">
+                    <a href="#">
+                        <li>facebook</li>
+                    </a>
+                    <a href="#">
+                        <li>twitter</li>
+                    </a>
+                    <a href="#">
+                        <li>instagram</li>
+                    </a>
+                </ul>
+            </span>
+            <br>
+            <div class="adress">
+                <address>Street Carlos Castilho, 158 Centro-Sul 
+                Várzea Grande, MT 
+                 Brazil</address>
+            </div>
+        </footer>
+    
+</body>
+</html>

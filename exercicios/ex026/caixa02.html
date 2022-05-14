@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgba(128, 128, 128, 0.555);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        #cabecalho{
+            background-color: whitesmoke;
+            padding: 30px;
+        }
+
+         nav{
+            background-color: lightgrey;
+            text-transform: capitalize;
+            color: aqua;
+            padding: 4px;
+            box-shadow: 5px 3px 7px 1px teal;
+        }
+
+        nav > a{
+            text-decoration: none;
+            padding: 4px;
+            font-weight: bold;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: lightcoral;
+        }
+
+        nav > a:active{
+            color: blueviolet;
+        }
+
+        main{
+            background-color: whitesmoke;
+            border-radius: 10px;
+            box-shadow: 0 0 2em 1em rgba(0, 128, 128, 0.438);
+        }
+
+        main > h4{
+            text-align: center;
+            font-weight: normal;
+        }
+
+        #principal{
+            background-color: lightgray;
+            padding: 20px;
+            margin: 5px;
+            text-indent: 4px;
+        }
+
+        .noticia > article{
+            text-align: justify;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+
+        footer{
+            text-align: center;
+            background-color: #000D00;
+            color: whitesmoke;
+            padding: 4px;
+        }
+
+        footer > p{
+            margin: 0;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 15px;
+            background-color: whitesmoke;
+            border-radius: 50%;
+            box-shadow: 0 0 2em 1em rgba(0, 128, 128, 0.445);
+        }
+    </style>
+</head>
+<body>
+    <div id="cabecalho">
+        <header>
+            <nav>
+                <a href="#">home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+    </div>
+
+    <div id="principal">
+        <main>
+            <h4>Esporte, Política e Tecnologia</h4>
+            <section class="noticia">
+                <h3>Notícia sobre o Brasil</h3>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam earum blanditiis, saepe enim accusamus perspiciatis ipsa asperiores quia iste nemo omnis ducimus natus, ab distinctio molestias, suscipit eaque consequatur non.</p>
+                </article>
+                <aside>By <em>Pedro Reis</em></aside>
+            </section>
+        </main>
+    </div>
+
+    <div id="footer">
+        <footer>
+            <p>Desenvolvido por um futuro Engenhreiro de Software</p>
+        </footer>
+    </div>
+
+    <div id="bola"></div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasse HOVER</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            color: darkred;
+            text-shadow: 4px 4px 3px darkred;
+        }
+
+        div:hover{
+             color: rgba(196, 19, 19, 0.801);
+        }
+
+        div{
+            text-align: justify;
+        }
+
+        div > #p2{
+            text-align: justify;
+            display: none;
+        }
+
+        div:hover > #p2{
+            display: block;
+            color: blueviolet;
+        } 
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo.</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil et porro dolorem eius rerum, quidem expedita deserunt sunt dignissimos libero. Hic optio expedita illo molestiae tempore consequuntur voluptatibus magnam.</p>
+
+        <p id="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ea, a id cum vero recusandae. Labore, libero dolorum. Quod iste officiis alias aspernatur exercitationem debitis magnam explicabo laborum dolore itaque.</p>
+    </div>
+    
+</body>
+</html>
