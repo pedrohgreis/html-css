@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: normal;
+        }
+
+        header{
+            background-image: linear-gradient(to bottom, #023535 15%, #008F8C, #0FC2C0);
+            padding: 10px 10px 10px 10px;
+        }
+
+        header > ul{
+            list-style: none;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+        }
+
+        header > ul .info{
+            text-transform: capitalize;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 30px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+        }
+
+        header > ul .info:nth-child(2){
+            margin: 0px 20px;
+        }
+
+        header > ul .info:hover{
+            color: darkcyan;
+            border-color: aqua;
+
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <ul>
+            <li class="info">home</li>
+            <li class="info">about us</li>
+            <li class="info">contact</li>
+        </ul>
+    </header>
+    
+</body>
+</html>
