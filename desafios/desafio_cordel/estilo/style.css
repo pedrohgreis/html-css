@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Nanum+Myeongjo&family=Passion+One&family=Permanent+Marker&family=Tapestry&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Nanum+Myeongjo&family=Passion+One&family=Permanent+Marker&family=Sriracha&family=Tapestry&display=swap');
+
+:root{
+    --font_passionone: 'Passion One', cursive;
+
+    --font_sh: 'Sriracha', cursive;
+
+    --font_normal: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +19,8 @@
 
 html, body{
     min-height: 100vh;
+    font-family: var(--font_normal);
+    font-size: 1em;
 }
 
 header{
@@ -18,6 +32,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font_passionone);
+    font-size: 10vw;
 }
 
 header > p{
@@ -41,8 +57,10 @@ a:active{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2rem;
+    line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font_sh);
+    font-size: 3vw;
 }
 
 .normal{
@@ -57,7 +75,8 @@ section{
 
 .imagem > p{
     background-color: rgba(0, 0, 0, 0.377);
-    width: 400px;
+    display: inline-block;
+    padding: 8px;
 }
 
 footer{
