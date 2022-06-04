@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .film{
+            background-color: aquamarine;
+        }
+
+        .title{
+            background-color: lightslategray;
+        }
+
+        .name{
+            background-color: antiquewhite;
+        }
+
+        .gender{
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+
+    <table>
+
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col" class="title">Grupo</th>
+                <th scope="rol" class="title">Nome</th>
+                <th colspan="3" scope="colgroup" class="title">Filmes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup" class="gender">Mulheres</th>
+                <td class="name">Ana Maria Santos</td>
+                <td class="film">Alian</td>
+                <td class="film">Rambo</td>
+                <td class="film">Vingadores</td>
+            </tr>
+
+            <tr>
+                <td class="name">Beatriz Souza</td>
+                <td class="film">Hulk</td>
+                <td class="film">Inception</td>
+                <td class="film">Batman</td>
+            </tr>
+
+            <tr>
+                <td class="name">Cláudia Melo</td>
+                <td class="film">Oblivision</td>
+                <td class="film">Matrix</td>
+                <td class="film">Big Hero</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3" scope="rowgroup" class="gender">Homens</th>
+
+                <td class="name">Bruno Mendonça</td>
+                <td class="film">Intocáveis</td>
+                <td class="film">Amnésia</td>
+                <td class="film">Gladiador</td>
+            </tr>
+
+            <tr>
+                <td class="name">Daniel Lourenço</td>
+                <td class="film">Wass-E</td>
+                <td class="film">OldBoy</td>
+                <td class="film">Dangal</td>
+            </tr>
+
+            <tr>
+                <td class="name">Fabiano Mota</td>
+                <td class="film">Star Wars 5</td>
+                <td class="film">Taxi Driver</td>
+                <td class="film">Toy Story</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
