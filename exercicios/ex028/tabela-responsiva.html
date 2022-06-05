@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva</title>
+
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        table{
+            width: 600px;
+            margin: auto;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 6px;
+            text-align: center;
+        }
+
+        tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+        #container{
+            overflow-x: scroll;
+            width: 60vh;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente id assumenda error consequatur eos iste harum soluta? Cupiditate odit rerum assumenda asperiores natus voluptatum minus impedit, magnam repudiandae soluta.</p>
+
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Janeiro</th>
+                    <th scope="col">Fevereiro</th>
+                    <th scope="col">Março</th>
+                    <th scope="col">Abril</th>
+                    <th scope="col">Maio</th>
+                    <th scope="col">Junho</th>
+                    <th scope="col">Julho</th>
+                    <th scope="col">Agosto</th>
+                    <th scope="col">Setembro</th>
+                    <th scope="col">Outubro</th>
+                    <th scope="col">Novembro</th>
+                    <th scope="col">Dezembro</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>15</td>
+                    <td>06</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>09</td>
+                    <td>12</td>
+                    <td>15</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>Home Theater</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>07</td>
+                    <td>03</td>
+                    <td>02</td>
+                    <td>09</td>
+                    <td>08</td>
+                    <td>11</td>
+                    <td>15</td>
+                    <td>17</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>iPad Mini</td>
+                    <td>02</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>09</td>
+                    <td>11</td>
+                    <td>16</td>
+                    <td>22</td>
+                    <td>21</td>
+                    <td>23</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Caixinha de som</td>
+                    <td>05</td>
+                    <td>07</td>
+                    <td>09</td>
+                    <td>10</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>05</td>
+                    <td>16</td>
+                    <td>24</td>
+                    <td>11</td>
+                    <td>06</td>
+                    <td>03</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

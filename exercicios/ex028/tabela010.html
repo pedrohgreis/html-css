@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        table{
+            width: 600px;
+            padding: 16px;
+            border-collapse: collapse;
+        }
+
+        #cnome{
+            background-color: lightgoldenrodyellow;
+        }
+
+        #cgroup{
+            background-color: aquamarine;
+        }
+
+        .data{
+            background-color: rgba(128, 128, 128, 0.651);
+        }
+
+        caption{
+            padding: 10px;
+            font-variant: small-caps;
+            letter-spacing: 2px;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <colgroup>
+            <col id="cnome">
+            <col id="cgroup" span="4">
+        </colgroup>
+        <caption>Filmes Favoritos</caption>
+
+        <thead>
+            <tr>
+                <th scope="col" id="nome" class="data">Nome</th>
+                <th scope="col" id="idade" class="data">Idade</th>
+                <th colspan="3" scope="col" id="filme" class="data">Filmes</th>
+                
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Guilherme</td>
+                <td>22</td>
+                <td>Homem de Aço</td>
+                <td>Os 300</td>
+                <td>O Resgate</td>
+            </tr>
+
+            <tr>
+                <td>Gabriel</td>
+                <td>21</td>
+                <td>Matrix</td>
+                <td>Dunkirk</td>
+                <td>Old Guard</td>
+            </tr>
+
+            <tr>
+                <td>Bhrenda</td>
+                <td>20</td>
+                <td>50 tons de cinza</td>
+                <td>Stars Wars</td>
+                <td>Minha Mãe é uma peça</td>
+            </tr>
+
+            <tr>
+                <td>Pedro</td>
+                <td>20</td>
+                <td>Harry Potter</td>
+                <td>Animais Fantásticos</td>
+                <td>Os Vingadores</td>
+            </tr>
+
+            <tr>
+                <td>Lúcio</td>
+                <td>20</td>
+                <td>Batman vs Super Man</td>
+                <td>Esquadrão Suicida</td>
+                <td>Doutor Estranho</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
