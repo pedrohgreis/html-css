@@ -1,0 +1,20 @@
+@charset 'UTF-8';
+
+/* Configuração landscape */
+
+html,body{
+    background-color: rgba(236, 229, 164, 0.432);
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.9em;
+    color: lightseagreen;
+}
+
+p{
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+    color: rgb(87, 80, 80);
+}
